@@ -102,12 +102,4 @@
   <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/DaRKxLoRd18/DaRKxLoRd18/output/pacman-contribution-graph.svg">
 </picture>
 
-###
 
-<div align="center">
-  <a href="https://open.spotify.com/user/31rxnar5hzsxyprzpkzobdacii3u">
-    <img src="https://spotify-recently-played-readme.vercel.app/api?user=31rxnar5hzsxyprzpkzobdacii3u&count=5" alt="Spotify recently played"  />
-  </a>
-</div>
-
-###
