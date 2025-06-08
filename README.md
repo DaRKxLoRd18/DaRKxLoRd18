@@ -22,11 +22,11 @@
 
 ###
 
-<h3 align="left">👩‍💻  About Me</h3>
+<h3 align="left">Hi, I'm Manveet Singh.</h3>
 
 ###
 
-<p align="left">Hi, I'm Manveet Singh.<br> I don't debug—I just outlogic the bugs.<br>In CS, print statements are my breakpoints in disguise.</p>
+<p align="left"> I don't debug—I just outlogic the bugs.<br>In CS, print statements are my breakpoints in disguise.</p>
 
 ###
 
@@ -94,12 +94,6 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" height="40" alt="cplusplus logo"  />
 </div>
 
-###
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DaRKxLoRd18/DaRKxLoRd18/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/DaRKxLoRd18/DaRKxLoRd18/output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/DaRKxLoRd18/DaRKxLoRd18/output/pacman-contribution-graph.svg">
-</picture>
 
 
