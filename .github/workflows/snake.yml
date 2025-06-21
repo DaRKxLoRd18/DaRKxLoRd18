@@ -2,38 +2,33 @@ name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 0 * * *"      # every day at 00:00 UTC
-  workflow_dispatch:          # run manually from the Actions tab
+    - cron: "0 0 * * *"
+  workflow_dispatch:
   push:
     branches: [ main ]
 
 permissions:
-  contents: write             # allow the action to push to `output` branch
+  contents: write
 
 jobs:
   snake:
     runs-on: ubuntu-latest
 
     steps:
-      # 1️⃣ Fetch your repo so later steps have a workspace
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      # 2️⃣ Generate the SVG
       - name: Generate SVG with snk
         uses: Platane/snk@v3
         with:
           github_user_name: DaRKxLoRd18
-          outputs: |
-            dist/github-contribution-grid-snake.svg   # you can add more lines here
+          outputs: dist
 
-      # 3️⃣ Optional – list files so you can verify `dist/` exists
-      - name: Debug – show files
-        run: ls -R
+      - name: Debug — show files
+        run: ls -R dist
 
-      # 4️⃣ Push the SVG(s) to the dedicated `output` branch
       - name: Deploy to output branch
-        uses: crazy-max/ghaction-github-pages@v4      # v4 is the current release
+        uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist
