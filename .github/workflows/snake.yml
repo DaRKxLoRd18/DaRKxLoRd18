@@ -18,20 +18,22 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Generate SVG with snk
+      - name: Create output folder
+        run: mkdir -p dist
+
+      - name: Generate Snake SVG
         uses: Platane/snk@v3
         with:
           github_user_name: DaRKxLoRd18
-          outputs: dist
+          outputs: dist/github-contribution-grid-snake.svg
 
-      - name: Debug — show files
+      - name: Show output files
         run: ls -R dist
 
-      - name: Deploy to output branch
+      - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist
-          keep_history: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
