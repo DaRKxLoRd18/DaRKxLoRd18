@@ -96,4 +96,6 @@
 
 
 
-<img src="https://raw.githubusercontent.com/DaRKxLoRd18/DaRKxLoRd18/output/github-contribution-grid-snake.svg" />
+<p align="center">
+  <img src="https://raw.githubusercontent.com/DaRKxLoRd18/DaRKxLoRd18/output/github-contribution-grid-snake.svg" alt="snake animation" />
+</p>
