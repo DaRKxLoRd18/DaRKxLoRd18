@@ -2,7 +2,7 @@ name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 0 * * *" # every day at midnight
+    - cron: "0 0 * * *"
   workflow_dispatch:
   push:
     branches: [ main ]
@@ -21,14 +21,13 @@ jobs:
       - name: Create output folder
         run: mkdir -p dist
 
-      - name: Generate Snake SVG with dark theme
-        uses: DaSchTour/snk@custom-color-support
+      - name: Generate Snake SVG
+        uses: Platane/snk@v3
         with:
           github_user_name: DaRKxLoRd18
           outputs: dist/github-contribution-grid-snake.svg
-          snake_color: '#00ffe0' # neon cyan
-          background: '#0d1117'  # GitHub dark background
-          color_dots: '#161b22,#1f2933,#263544,#2f3e50,#39d353' # darkest to active
+          color_snake: '#00ffe0' # neon cyan snake
+          color_dots: '#161b22,#1f2933,#263544,#2f3e50,#39d353' # fully dark gradient + green for activity
 
       - name: Show output files
         run: ls -R dist
