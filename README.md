@@ -96,12 +96,4 @@
 
 
 
----
-
-### 🐍 Watch the Snake 🐍
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/singhmanveet18/singhmanveet18/output/github-contribution-grid-snake.svg" alt="Snake animation" />
-</div>
-
----
+<img src="https://raw.githubusercontent.com/DaRKxLoRd18/DaRKxLoRd18/output/github-contribution-grid-snake.svg" />
