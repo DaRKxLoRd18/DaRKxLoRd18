@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://gear5world.com/cdn/shop/articles/luffy_mugiwara_chapeau_paille_one_piece_fe5ff81c-bfb3-48d2-8e23-bf1f32ed29b9.jpg?v=1739192823" width="500" height="auto" alt="Luffy image" />
+  <img src="https://i.pinimg.com/736x/24/bd/ee/24bdeecd546a2c6b7e34857a104afe68.jpg" width="500" height="auto" alt="Luffy image" />
 </div>
 
 
